@@ -1,0 +1,18 @@
+NewtonPy v1.0 (Dezembro 2011)
+-------------
+Algoritmo que calcula a raiz quadrada de um número usando o Método de Newton. Um mini projeto para teste de uso no GitHub. Baseado no livro How to Think Like a Computer Scientist.
+
+Basicamente o algoritmo inicia com uma aproximação do resultado, em seguida calcula uma nova aproximação com a fórmula:
+
+melhor_aprox = (aprox + n/aprox)/2
+
+repetindo o processo. É uma das formas de se calcular a raiz quadrada de um número. Antes dele recorria-se a extensas tábuas de logaritmos, que foram substituidas por este algoritmo de poucas linhas (requer referência).
+
+Instalação
+----------
+Apenas download. Requer Python qualquer versão. Exemplo de uso:
+$ python NewtonPy.py
+
+----------------------------
+Marco Antonio Silveira de Souza
+http://oqueeufizhoje.blogspot.com
